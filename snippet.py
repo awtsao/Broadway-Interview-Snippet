@@ -1,3 +1,8 @@
+import cv2
+import itertools
+import numpy as np
+import time
+from imutils.video import WebcamVideoStream
 def getTwoLargest(contours):
     '''
     This function returns the indices of two largest contours.
